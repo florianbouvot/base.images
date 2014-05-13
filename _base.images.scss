@@ -8,8 +8,8 @@
  * 3. Offset `alt` text from surrounding copy.
  */
 img {
-	display: inline-block; /* [1] */
-	vertical-align: middle; /* [1] */
+    display: inline-block; /* [1] */
+    vertical-align: middle; /* [1] */
     max-width: 100%; /* [2] */
     font-style: italic; /* [3] */
 }
