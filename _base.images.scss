@@ -3,12 +3,15 @@
 \*------------------------------------*/
 
 /**
- * 1. Fluid images for responsive purposes.
- * 2. Offset `alt` text from surrounding copy.
+ * 1. Remove gap under images.
+ * 2. Fluid images for responsive purposes.
+ * 3. Offset `alt` text from surrounding copy.
  */
-img{
-    max-width: 100%; /* [1] */
-    font-style: italic; /* [2] */
+img {
+	display: inline-block; /* [1] */
+	vertical-align: middle; /* [1] */
+    max-width: 100%; /* [2] */
+    font-style: italic; /* [3] */
 }
 
 
